@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: bulk-stk-bot
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
